@@ -32,12 +32,12 @@ const Header = () => {
         <ul className="nav-list">
           <li>
             <Link to="/calculator/1" className="nav-link">
-              Калькулятор 1
+              Триместр 1
             </Link>
           </li>
           <li>
             <Link to="/calculator/2" className="nav-link">
-              Калькулятор 2
+              Триместр 2
             </Link>
           </li>
         </ul>
@@ -87,7 +87,7 @@ const Calculator1 = () => {
 
   return (
     <div className="calculator">
-      <h2>Калькулятор 1</h2>
+      <h2>Триместр 1</h2>
       {/* <div className="formula">
         <p>Формула: P = 1 / (1 + e^(-z)) × 100%</p>
         <p>
@@ -201,7 +201,7 @@ const Calculator2 = () => {
 
   return (
     <div className="calculator">
-      <h2>Калькулятор 2</h2>
+      <h2>Триместр 2</h2>
       {/* <div className="formula">
         <p>Формула: P = 1 / (1 + e^(-z)) × 100%</p>
         <p>
